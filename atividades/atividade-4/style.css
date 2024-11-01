@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: rgb(red, green, blue);
+}
+
+.miniatura {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+#imgAmpliada {
+    width: 516px;
+    display: none;
+}
+
+#galeria {
+    margin: auto;
+    width: 516px;
+}
