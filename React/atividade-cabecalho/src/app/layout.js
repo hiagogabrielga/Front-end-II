@@ -7,13 +7,11 @@ export const metadata = {
   charset: 'UTF-8',
   author: 'Hiago Gabriel',
   keywords: 'HTML, CSS, JavaScript, React, Next.js',
-  icon: '/React/atividade-cabecalho/public/images/logoPotfolio.png',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-
       <body>
         <Header />
         {children}

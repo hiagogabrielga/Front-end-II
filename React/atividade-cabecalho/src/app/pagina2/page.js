@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function PaginaTwo() {
     return (
-      <div>
-        <h1>Bom dia.</h1>
+      <div className="divsoes">
+        <h2>Pagina 2</h2>
       </div>
     );
   }

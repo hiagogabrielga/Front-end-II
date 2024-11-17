@@ -44,3 +44,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+.divsoes{
+	background-color: black;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+h2{
+	color: white;
+	margin: auto;
+}

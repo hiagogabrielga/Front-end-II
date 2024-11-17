@@ -1,4 +1,7 @@
 'use client'
+import React from "react";
+import Lottie from "lottie-react";
+import animationMenu from "./animationMenu.json"
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion"
 import style from "./Header.module.css"
@@ -39,7 +42,7 @@ export default function Header() {
                 )
             }
             </AnimatePresence>
-        
+            <Lottie animationData={animationMenu} loop={true} />
         </header>
         
     )
