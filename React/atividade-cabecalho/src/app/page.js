@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="divsoes">
       <h2>Pagina 1</h2>
-      <p>Lembrar de adiciona4r alguama imagemoiu conteudo para popular está pagina.</p>
+      <p>Lembrar de adicionar alguama imagemoiu conteudo para popular está pagina.</p>
     </div>
 
   );
