@@ -50,7 +50,9 @@ table {
 	flex-direction: column;
 }
 
-h2{
+h2, p{
 	color: white;
 	margin: auto;
+	font-family: "Roboto";
 }
+
