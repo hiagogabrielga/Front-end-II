@@ -61,6 +61,15 @@
     list-style-type: none;
 }
 
+#pagina1:hover, #pagina2:hover, #pagina3:hover{
+    color: rgb(32, 196, 207);
+}
+
+.logoEclass{
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width: 400px) {
     .opcoesNav {
         flex-direction: column;

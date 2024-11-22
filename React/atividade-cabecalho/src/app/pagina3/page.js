@@ -1,10 +1,9 @@
 import React from "react";
 
-export default function Home() {
+export default function PaginaTree() {
   return (
     <div className="divsoes">
-      <h2>Pagina 1</h2>
+      <h2>Pagina 3</h2>
     </div>
-
   );
 }

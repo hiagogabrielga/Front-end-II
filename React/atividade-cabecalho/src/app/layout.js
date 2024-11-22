@@ -1,5 +1,6 @@
 import "./globals.css";
 import Header from "@/components/Header";
+import React from "react";
 
 export const metadata = {
   title: "Atividade cabeçalho",
