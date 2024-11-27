@@ -33,9 +33,6 @@ export default function Header() {
                             <li className={style.opcao} >
                                 <Link href={'./pagina2'}>pagina 2</Link>
                             </li >
-                            <li className={style.opcao} >
-                                <Link href={'./pagina3'}>pagina 3</Link>
-                            </li >
                         </div>
 
                     </motion.nav>
