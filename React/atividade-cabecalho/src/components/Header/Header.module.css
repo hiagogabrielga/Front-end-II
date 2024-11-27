@@ -26,7 +26,7 @@
 .campoOpcaoNav {
     background-color: rgb(17, 17, 17);
     transition: all 0.2s;
-    padding: 1%;
+    padding: 1rem 1%;
     box-shadow: inset 0px -5px 2px -1px rgb(32, 196, 207);
     height: 20px;
 }

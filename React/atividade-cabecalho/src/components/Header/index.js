@@ -9,14 +9,16 @@ import Link from "next/link"
 export default function Header() {
 
     const [selectedPage, setSelectedPage] = useState(null);
-
     const handleClick = (page) => {
+        if (page == null) {
+            page = "pagina1"
+        }
         setSelectedPage(page);
     };
 
     const getStyle = (page) => {
         return {
-            color: selectedPage === page ? "rgb(32, 196, 207)" : "white",
+            color: selectedPage === page ? "rgb(32, 196, 207)" : "",
             cursor: "pointer"
         };
     };
@@ -42,9 +44,9 @@ export default function Header() {
                     (
                         <motion.nav
                             key="nav-atividade"
-                            initial={{ opacity: 0, y: -70 }}
+                            initial={{ opacity: 0, y: -170 }}
                             animate={{ opacity: 1, y: 0 }}
-                            exit={{ opacity: 1, y: -70 }}
+                            exit={{ opacity: 1, y: -170 }}
                             transition={{ duration: 0.2 }}
                             className={style.campoOpcaoNav}>
                             <div className={style.opcoesNav}>
