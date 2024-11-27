@@ -1,10 +1,10 @@
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
-import React from "react";
 
 export const metadata = {
-  title: "Atividade cabeçalho",
-  description: "Aplicação simples",
+  title: "Projeto-jojo-melhorado",
+  description: "Esse site servirá para mostrar a minha evolução dentro de 6 meses após a criação do meu primeiro site em HTML e CSS.",
   charset: 'UTF-8',
   author: 'Hiago Gabriel',
   keywords: 'HTML, CSS, JavaScript, React, Next.js',
@@ -12,12 +12,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-br">
       <body>
-        <Header />
+        <Header/>
         {children}
       </body>
-
     </html>
   );
 }
