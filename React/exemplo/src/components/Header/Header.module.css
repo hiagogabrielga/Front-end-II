@@ -1,0 +1,8 @@
+.opicaoLista{
+    list-style-type: none;
+}
+
+.listaUl{
+    display: flex;
+    justify-content: space-around;
+}

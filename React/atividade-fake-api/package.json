@@ -1,5 +1,5 @@
 {
-  "name": "jojo-melhorado",
+  "name": "atividade-fake-api",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "lottie-react": "^2.4.0",
-    "next": "15.0.3",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.1.6"
   }
 }
