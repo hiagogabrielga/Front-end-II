@@ -2,4 +2,28 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Roboto";
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  width: 100%;
+  background-color: #dfdfdf;
+}
+
+main{
+  width: 100%;
+  flex: 1;
+  background-color: #f1f1f1;
+}
+
+footer{
+  width: 100%;
+  background-color: #1f1f1f;
 }

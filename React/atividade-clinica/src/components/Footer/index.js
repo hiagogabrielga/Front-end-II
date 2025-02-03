@@ -4,7 +4,7 @@ import style from "./footer.module.css"
 
 export default function Footer() {
     return (
-        <footer>
+        <div>
             <h3>Footer</h3>
             <ul>
                 <li>
@@ -20,6 +20,6 @@ export default function Footer() {
                     Consulta
                 </li>
             </ul>
-        </footer>
+        </div>
     )
 }
