@@ -53,6 +53,10 @@
     text-decoration: none;
 }
 
+.conteudoHeader{
+    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.5);
+}
+
 .listaOpcoes{
     justify-content: space-around;
     list-style-type: none;

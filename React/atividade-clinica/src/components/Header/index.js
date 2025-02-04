@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <div className={styles.conteudoHeader}>
             <nav className={styles.navegacao}>
-            <Image src={'/images/logoComNome.png'} width={150} height={75} alt="Logo da clínica"/>
+            <Image src={'/images/logoComNome.png'} width={140} height={70} alt="Logo da clínica"/>
             <ul className={styles.listaOpcoes}>
                 <li className={styles.headerLi}>
                     <Link href="/" className={styles.opcaoHeader}>
