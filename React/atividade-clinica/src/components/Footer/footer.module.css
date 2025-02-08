@@ -1,6 +1,9 @@
 .campoCopyRight{
-    color: rgb(243, 243, 243);
-    padding: 1%;
-    text-align: center;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    background-color: rgb(53, 53, 53);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    color: rgb(204, 204, 204);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }

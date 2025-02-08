@@ -1,0 +1,31 @@
+.containerHome{
+    background-image: url(../../public/images/hospital.jpg);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+}
+
+.campoParagrafo{
+    width: 60%;
+    margin: auto;
+    background-color: #dfdfdf;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: justify;
+    font-size: 1.5rem;
+    color: rgb(32, 32, 32);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    animation: flutuacao 5s ease-in-out infinite;
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes flutuacao {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

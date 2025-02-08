@@ -1,0 +1,144 @@
+.container{
+    background-color: rgb(230, 230, 230);
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.containerPesquisa{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.botaoPesquisar{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tabelaContainer{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 2%;
+}
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.cabecalho{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+.linhaCabecalho > th{
+    min-width: 50px;
+    text-align: justify;
+    padding: 1%;
+    border: 1px solid #ddd;
+}
+
+.corpoTabela{
+    background-color: rgb(247, 247, 247);
+}
+
+.linhaCorpo{
+    text-align: justify;
+}
+
+.linhaCorpo > td{
+    padding: 1%;
+    border: 1px solid #464646;
+}
+
+.linhaCorpo:hover > td{
+    background-color: rgba(106, 137, 194, 0.22);
+}
+
+.containerInput{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.botaoFechar{
+    background-color: rgb(230, 15, 15);
+    border-radius: 5px;
+    border: none;
+    margin: auto 5px;
+    padding: 2px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.iconeFechar{
+    margin: auto;
+    width: 100px;
+}
+
+.containerListaPesquisa{
+    box-sizing: border-box;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100000;
+    overflow: auto;
+    padding: 20px 0;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.containerListaPesquisa::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+}
+
+.containerInputELista{
+    margin: 1px auto auto;
+    background-color: rgb(247, 247, 247);
+    width: 40%;
+    padding: 1%;
+    border-radius: 20px;
+    z-index: 10000;
+}
+
+.containerLista{
+    display: flex;
+}
+
+.listaPesquisa{
+    list-style-type: none;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.linhaListaPesquisa{
+    width: 100%;
+    padding: 1% auto;
+    border: solid 1px #46464652;
+}
+
+.linhaListaPesquisa:hover{
+    padding-left: 2%;
+    background-color: rgba(0, 0, 0, 0.096);
+    cursor: pointer;
+}
+
+.input{
+    padding: 2% 1%;
+    border-radius: 10px;
+    border: 1px solid rgb(53, 53, 53);
+    width: 80%;
+}

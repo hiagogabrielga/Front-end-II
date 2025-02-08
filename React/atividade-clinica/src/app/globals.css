@@ -14,16 +14,21 @@ html, body {
 
 header{
   width: 100%;
-  background-color: #dfdfdf;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px, rgba(0, 0, 0, 0.22) 0px 5px 2px;
 }
 
 main{
   width: 100%;
   flex: 1;
-  background-color: #f1f1f1;
+  display: flex;
 }
 
 footer{
   width: 100%;
-  background-color: #1f1f1f;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
 }

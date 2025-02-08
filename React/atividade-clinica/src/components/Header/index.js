@@ -8,7 +8,10 @@ export default function Header() {
     return (
         <div className={styles.conteudoHeader}>
             <nav className={styles.navegacao}>
-            <Image src={'/images/logoComNome.png'} width={140} height={70} alt="Logo da clínica"/>
+                <div className={styles.imagemLogo}>
+                <Image src={'/images/logo.png'} width={70} height={70} alt="Logo da clínica" className={styles.logo}/>
+                </div>
+            
             <ul className={styles.listaOpcoes}>
                 <li className={styles.headerLi}>
                     <Link href="/" className={styles.opcaoHeader}>
@@ -16,10 +19,11 @@ export default function Header() {
                     </Link>
                 </li>
                 <li className={styles.headerLi}>
+
                         <Link href="#" className={styles.opcaoHeader}>Médicos</Link>
                         <ul className={styles.headerSubmenu}>
                             <li className={styles.headerLi}>
-                                <Link href="medicos" className={styles.opcaoHeader}>Listar</Link>
+                                <Link href="medicos" className={styles.opcaoHeader}>Listar médicos</Link>
                             </li>
                             <li className={styles.headerLi}>
                                 <Link href="#" className={styles.opcaoHeader}>Adicionar</Link>
@@ -36,7 +40,7 @@ export default function Header() {
                         <Link href="#" className={styles.opcaoHeader}>Pacientes</Link>
                         <ul className={styles.headerSubmenu}>
                             <li className={styles.headerLi}>
-                                <Link href="#" className={styles.opcaoHeader}>Listar</Link>
+                                <Link href="pacientes" className={styles.opcaoHeader}>Listar pacientes</Link>
                             </li>
                             <li className={styles.headerLi}>
                                 <Link href="#" className={styles.opcaoHeader}>Adicionar</Link>
@@ -53,7 +57,7 @@ export default function Header() {
                         <Link href="#" className={styles.opcaoHeader}>Agendamento</Link>
                         <ul className={styles.headerSubmenu}>
                             <li className={styles.headerLi}>
-                                <Link href="#" className={styles.opcaoHeader}>Listar Consultas</Link>
+                                <Link href="consultas" className={styles.opcaoHeader}>Listar Consultas</Link>
                             </li>
                             <li className={styles.headerLi}>
                                 <Link href="#" className={styles.opcaoHeader}>Agendar Consulta</Link>
