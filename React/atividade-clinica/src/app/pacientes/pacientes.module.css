@@ -24,12 +24,14 @@
 .tabelaContainer{
     width: 100%;
     border-collapse: collapse;
-    padding: 2%;
+    padding: 15px;
+    overflow: auto;
 }
 
 .tabela{
     width: 100%;
-    border-collapse: collapse; 
+    border-collapse: collapse;
+    min-width: 700px;
 }
 
 .cabecalho{
@@ -76,6 +78,7 @@
     width: 30px;
     height: 30px;
     display: flex;
+    cursor: pointer;
 }
 
 .iconeFechar{
@@ -141,4 +144,10 @@
     border-radius: 10px;
     border: 1px solid rgb(53, 53, 53);
     width: 80%;
+}
+
+@media screen and (max-width: 750px) {
+    .containerInputELista{
+        width: 80%;
+    }
 }
