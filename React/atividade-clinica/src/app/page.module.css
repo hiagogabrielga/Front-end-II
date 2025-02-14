@@ -40,3 +40,10 @@
         transform: translateY(-10px);
     }
 }
+
+@media screen and (max-width: 760px) {
+    .campoParagrafo {
+        font-size: 20px;
+        width: 80%;
+    }
+}
